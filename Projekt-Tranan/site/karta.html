@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Tranan | Karta</title>
+        <link rel="shortcut icon" href="icon.ico">
+        <link rel="stylesheet" href="css/tranan-style.css" type="text/css">
+        <link rel="stylesheet" href="css/karta.css">
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>function initialize() {
+        var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+        var mapOptions = {
+        zoom: 4,
+        center: myLatlng
+        }
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'Map'
+        });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </head>
+    <body>
+        <div id="logo_bar">
+            <img src="img/crane-header.png" id="logo1">
+        </div>
+        <div id="container">
+            <h1></h1>
+            <div class="nav">
+                <a class="nav-button" href="restaurant-tranan.html">Om oss</a>
+                <a class="nav-button" href="karta.html">Karta</a>
+                <a class="nav-button" href="kontakt.html">Kontakt</a>
+                <a class="nav-button" href="meny.html">Meny</a>
+            </div>
+            <div id="line">
+                <h1></h1>
+            </div>
+            <div id="map-canvas"></div>
+            <h4>Adress: SwagVägen 7.</h4>
+        </div>
+    </div>
+</body>
+</html>

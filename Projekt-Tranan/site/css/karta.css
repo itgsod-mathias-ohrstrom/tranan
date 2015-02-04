@@ -1,0 +1,23 @@
+#map-canvas {
+	width: 50%;
+	height: 65%;
+	margin-top: 30px;
+	margin-right: 2%;
+    border: 2px solid black;
+    float:right;
+
+}
+
+h4 {
+	margin-left:1.5%;
+	margin-top: 3.5%;
+    background-color: grey;
+    padding: 0%;
+    width: 45%;
+    height: 75%;
+    background-color: #ffffff;
+    border-radius: 1px 1px 1px 1px;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border: 2px solid black;
+}
