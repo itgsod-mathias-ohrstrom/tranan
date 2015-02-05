@@ -47,4 +47,41 @@
    margin-bottom: 0%;
 }
 
+#meny > h3 {
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
 
+#meny > img {
+    margin-left: 70px;
+}
+
+#meny > p {
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+/*
+efterrätt
+*/
+
+#meny1 > #menu_text {
+   margin-left: 35%;
+   margin-bottom: 0%;
+}
+
+#meny1 > h3 {
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+
+#meny1 > img {
+    margin-left: 70px;
+}
+
+#meny1 > p {
+    margin-left: 70px;
+    margin-top: 0px;
+}
